@@ -1,0 +1,73 @@
+# Linux Fundamentals (TryHackMe)
+
+> Notes from the "Linux Fundamentals" rooms (Parts 1–3) on TryHackMe.  
+> These rooms teach essential Linux skills used in cybersecurity, ethical hacking, and system administration.
+
+---
+
+## 🐧 What is Linux?
+
+- Linux is a free, open-source operating system.
+- It’s widely used in servers, cybersecurity tools, and cloud environments.
+- Common distributions: Kali Linux, Ubuntu, Parrot OS, Debian.
+
+---
+
+## 📁 Linux Directory Structure
+
+| Directory     | Purpose                                  |
+|---------------|-------------------------------------------|
+| `/`           | Root of the filesystem                   |
+| `/home`       | User home directories                    |
+| `/etc`        | System configuration files               |
+| `/var`        | Variable data like logs                  |
+| `/tmp`        | Temporary files                          |
+| `/bin`        | Essential binary commands (e.g. `ls`)    |
+| `/usr`        | User applications and utilities          |
+| `/root`       | Home directory of the root user          |
+
+---
+
+## 🧰 Basic Linux Commands
+
+### 📂 Navigation
+```bash
+pwd               # Print working directory
+ls                # List directory contents
+cd /path/to/dir   # Change directory
+clear             # Clear the terminal
+
+touch file.txt         # Create a new file
+cat file.txt           # Display file content
+nano file.txt          # Edit file with Nano editor
+mv old new             # Rename or move file/directory
+cp file1 file2         # Copy a file
+rm file.txt            # Delete a file
+
+mkdir myfolder         # Make a directory
+rmdir myfolder         # Remove empty directory
+rm -r myfolder         # Remove directory and its contents
+
+find / -name "file.txt"         # Search entire system for a file
+grep "keyword" file.txt         # Search for a word inside a file
+
+Important Concepts
+
+Case-sensitive OS: File.txt ≠ file.txt
+Command chaining: Use &&, ;, and || to link commands
+Wildcards: * for multiple matches, e.g., *.txt
+Tab completion: Speeds up typing and avoids errors
+
+📌 TryHackMe Lab Tips
+
+Use man to access manuals: man ls, man chmod
+Use sudo for elevated privileges
+Try different command combinations for efficiency
+Complete all practical exercises for muscle memory
+
+Key Takeaways
+
+Knowing Linux is essential for any cybersecurity role.
+Most hacking tools run on Linux, especially in Kali Linux.
+Mastery of the terminal boosts speed and control.
+File permissions are foundational for securing systems.
