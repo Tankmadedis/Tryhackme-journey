@@ -1,0 +1,91 @@
+# Intro to Cyber Security (TryHackMe)
+
+> Notes from the "Introduction to Cyber Security" room on TryHackMe.  
+> This room introduces the core concepts of cyber security and sets the foundation for later technical learning.
+
+---
+
+## 🧠 Key Topics Covered
+
+- **What is Cyber Security?**  
+  Protecting devices, systems, and data from cyber threats like malware, phishing, and unauthorized access.
+
+- **Why It Matters:**  
+  - Personal privacy
+  - Business continuity
+  - National security
+
+- **Types of Hackers:**
+  - 👨‍💻 White Hat – ethical hacker
+  - 🧑‍🎓 Grey Hat – in-between
+  - 🦹‍♂️ Black Hat – malicious hacker
+
+- **CIA Triad:**  
+  - **Confidentiality** – keep data private  
+  - **Integrity** – ensure data is accurate  
+  - **Availability** – ensure data is accessible
+
+---
+
+## 🔐 Common Cyber Threats
+
+| Threat        | Description |
+|---------------|-------------|
+| Phishing      | Fake emails or websites used to steal data |
+| Malware       | Malicious software (viruses, worms, etc.) |
+| Ransomware    | Locks data and demands payment |
+| DDoS Attack   | Overwhelms servers with traffic |
+
+---
+
+## 🛡️ Cyber Security Best Practices
+
+- Use strong, unique passwords
+- Enable multi-factor authentication (MFA)
+- Keep software updated
+- Avoid suspicious links and downloads
+- Backup data regularly
+
+---
+
+## 🔍 Notable Concepts
+
+- **Attack Surface:**  
+  All the possible points where an unauthorized user can access a system.
+
+- **Vulnerability vs Exploit:**  
+  - Vulnerability = weakness  
+  - Exploit = actual attack taking advantage of the weakness
+
+- **Social Engineering:**  
+  Psychological manipulation to trick users into giving access or information.
+
+---
+
+## 💡 TryHackMe Room Takeaways
+
+- Real-world examples of cyber attacks
+- Emphasis on user awareness and prevention
+- Interactive simulations to identify threats
+
+---
+
+## 📝 Personal Reflection
+
+What I learned:  
+- The importance of layered security (defense in depth)  
+- How attackers think and operate  
+- Awareness is just as important as technology
+
+---
+
+## 🧭 Next Steps
+
+➡️ Proceed to: `network-fundamentals.md`  
+➡️ Continue building foundational knowledge
+
+---
+
+### 🔗 Useful Resources
+- [TryHackMe Room Link](https://tryhackme.com/room/introtoinfosec)
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
