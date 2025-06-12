@@ -1,0 +1,110 @@
+# Network Fundamentals (TryHackMe)
+
+> Notes from the "Network Fundamentals" room on TryHackMe.  
+> This room introduces basic networking concepts crucial to understanding how devices communicate securely across the internet.
+
+---
+
+## 🌐 Key Concepts
+
+- **Network:**  
+  A group of two or more devices connected to share resources or information.
+
+- **IP Address:**  
+  A unique identifier for a device on a network.  
+  Example: `192.168.1.1`
+
+- **MAC Address:**  
+  Hardware address permanently assigned to a device's network card.
+
+- **Ports:**  
+  Virtual endpoints for communication.  
+  Example: HTTP = port `80`, HTTPS = port `443`
+
+---
+
+## 🧩 IP Address Types
+
+| Type             | Description                          | Example             |
+|------------------|--------------------------------------|---------------------|
+| IPv4             | Most common, 32-bit (e.g. 192.168.0.1) | 192.168.1.1         |
+| IPv6             | Newer, 128-bit, more address space     | fe80::1ff:fe23:4567:890a |
+| Public IP        | Routable on the internet              | 8.8.8.8             |
+| Private IP       | Used in local networks only           | 192.168.0.1         |
+| Loopback         | Refers to the same machine            | 127.0.0.1           |
+
+---
+
+## 📦 Protocols You Should Know
+
+| Protocol | Purpose                     | Port |
+|----------|-----------------------------|------|
+| HTTP     | Web traffic (unsecured)     | 80   |
+| HTTPS    | Web traffic (secured)       | 443  |
+| FTP      | File Transfer               | 21   |
+| SSH      | Secure Shell access         | 22   |
+| DNS      | Domain Name Resolution      | 53   |
+| DHCP     | Dynamic IP assignment       | 67/68|
+| ICMP     | Ping/troubleshooting        | n/a  |
+
+---
+
+## 🔐 DNS Explained
+
+- DNS = "Phonebook of the internet"
+- Converts domain names (e.g. `google.com`) into IP addresses.
+- Common commands:
+  - `nslookup domain.com`
+  - `dig domain.com`
+
+---
+
+## 🕸️ Network Devices
+
+- **Router:** Connects multiple networks and routes traffic.
+- **Switch:** Connects devices within a network; smarter than a hub.
+- **Firewall:** Monitors and controls network traffic.
+- **Access Point:** Provides wireless access to a network.
+
+---
+
+## 🧰 TryHackMe Tools Introduced
+
+- **ipconfig / ifconfig:** View IP configuration
+- **ping:** Check if host is reachable
+- **tracert / traceroute:** Show path to destination
+- **nslookup / dig:** DNS lookups
+- **netstat:** View active connections
+
+---
+
+## 💡 Key Takeaways
+
+- Understanding how data travels over networks is critical in cybersecurity.
+- IP, MAC, and ports are the foundation of system identification and communication.
+- DNS is a common target for attackers (e.g., DNS spoofing).
+- Simple commands reveal valuable information in both offensive and defensive roles.
+
+---
+
+## 📝 Personal Reflection
+
+What I learned:  
+- Clear understanding of IP addresses and port usage  
+- How DNS and DHCP simplify user experience and network management  
+- How to start mapping and troubleshooting network connectivity
+
+---
+
+## 🧭 Next Steps
+
+➡️ Proceed to: `linux-fundamentals.md`  
+➡️ Begin practicing commands in a terminal environment
+
+---
+
+### 🔗 Useful Resources
+- [TryHackMe Room](https://tryhackme.com/room/networkfundamentals)
+- [CIDR Subnet Calculator](https://www.ipaddressguide.com/cidr)
+- [Wireshark Network Protocol Guide](https://wiki.wireshark.org/ProtocolReference)
+
